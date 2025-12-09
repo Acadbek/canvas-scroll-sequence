@@ -79,8 +79,8 @@ const ImageSequence: React.FC<ImageSequenceProps> = ({
       );
     };
 
-
     const frameObj = { currentFrame: 0 };
+
     const resizeCanvas = () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
