@@ -95,7 +95,7 @@ const ImageSequence: React.FC<ImageSequenceProps> = ({
         trigger: containerRef.current,
         start: "top top",
         end: "+=300%",
-        scrub: 0.5,
+        scrub: 5.5,
         pin: true,
         // markers: true,
       },
