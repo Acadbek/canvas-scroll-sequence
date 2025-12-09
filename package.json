@@ -6,13 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "optimize": "node scripts/optimize-images.js"
   },
   "dependencies": {
     "gsap": "^3.14.1",
     "next": "16.0.8",
     "react": "19.2.1",
     "react-dom": "19.2.1",
+    "sharp": "^0.34.5",
     "tailwind-merge": "^3.4.0",
     "tailwindcss": "^4.1.17"
   },
